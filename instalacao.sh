@@ -36,9 +36,9 @@ fi
 
 # Repositorios
 echo "Clonando repositorios..."
-git clone "$REPO_NGINX"    "$PROJECT_DIR"
-git clone "$REPO_DATABASE" "$PROJECT_DIR"
-git clone "$REPO_WEB"      "$PROJECT_DIR"
-git clone "$REPO_JAVA"     "$PROJECT_DIR"
+git clone "$REPO_NGINX"    "$PROJECT_DIR/nginx-proxy"
+git clone "$REPO_DATABASE" "$PROJECT_DIR/database"
+git clone "$REPO_WEB"      "$PROJECT_DIR/web-aplication"
+git clone "$REPO_JAVA"     "$PROJECT_DIR/java-application"
 
 echo "Concluido."
