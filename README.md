@@ -1,5 +1,5 @@
 # infra
 Repositorio de infraestrutura
 rodar o script: 
-chmod +x instalacao.sh
-sudo ./instalacao.sh
+ - 1. chmod +x instalacao.sh
+ - 2. sudo ./instalacao.sh
