@@ -5,7 +5,7 @@ REPO_DATABASE="https://github.com/Tech-Music-Team/database"
 REPO_WEB="https://github.com/Tech-Music-Team/web-aplication"
 REPO_JAVA="https://github.com/Tech-Music-Team/java-application"
 
-PROJECT_DIR="$HOME"
+PROJECT_DIR="/home/ubuntu"
 
 echo "Iniciando instalacao"
 
@@ -36,9 +36,9 @@ fi
 
 # Repositorios
 echo "Clonando repositorios..."
-git clone "$REPO_NGINX"    "$PROJECT_DIR/nginx-proxy"
-git clone "$REPO_DATABASE" "$PROJECT_DIR/database"
-git clone "$REPO_WEB"      "$PROJECT_DIR/web-aplication"
-git clone "$REPO_JAVA"     "$PROJECT_DIR/java-application"
+git clone "$REPO_NGINX"    "$PROJECT_DIR"
+git clone "$REPO_DATABASE" "$PROJECT_DIR"
+git clone "$REPO_WEB"      "$PROJECT_DIR"
+git clone "$REPO_JAVA"     "$PROJECT_DIR"
 
 echo "Concluido."
