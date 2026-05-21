@@ -1,0 +1,8 @@
+# Crontab - infra/cron jobs
+# Formato: minuto hora dia-do-mes mes dia-da-semana comando
+#
+# Sobe o container jar (java-application/leitura-dados) todo dia à meia-noite
+
+
+
+0 0 * * * /home/infra/scriptcron.sh
