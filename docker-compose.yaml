@@ -23,7 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: p0o9i8u7
       MYSQL_DATABASE: tech_music
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
     healthcheck:
