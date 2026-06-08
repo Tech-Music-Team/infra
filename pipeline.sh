@@ -6,13 +6,16 @@
 docker stop web-application-container
 
 #excluindo o container e a imagem
-docker rm web-application-container
-docker rmi infra-web-application
+sudo docker rm web-application-container
+sudo docker rmi infra-web-application
 
 #Buildando nova imagem e rodando o container
-docker build -t infra-web-application /home/ubuntu/web-application/
+cd /home/ubuntu/web-application
+git pull
 
-docker run -p 3333:3333 -d --name web-application-container  infra-web-application
+sudo docker build -t infra-web-application .
+
+sudo docker run -p 3333:3333 -d --name web-application-container  infra-web-application
 
 
 
